@@ -1,0 +1,7 @@
+#highlights {
+    display: none;
+}
+
+#highlights.active {
+    display: block;
+}
