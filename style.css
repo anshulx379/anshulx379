@@ -22,13 +22,14 @@ header {
     }
 
     header h1 {
-        margin: 0;
-        font-size: 24px;
-        text-align: center;
-        flex-grow: 1;
-        color: #FFFFFF; /* white title */
+        font-size: 2em; /* Increase font size */
+        font-weight: bold; /* Make the font bold */
+        color: #333; /* Dark color for the title */
+        flex-grow: 1;        
+        letter-spacing: 0.5px; /* Add letter spacing */
+        text-transform: uppercase; /* Optional: Make the text uppercase */
         position: absolute;
-        right: 42%; /* Position the h1 25% from the right */
+        right: 37%;
     }
 
 hr {
@@ -60,6 +61,7 @@ section {
     padding: 40px 20px;
     text-align: center;    
     border-bottom: 1px solid #C5C5C5; /* Warm Gray */
+    height:60vh;
 }
 
     section.active {

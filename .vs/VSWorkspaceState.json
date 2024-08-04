@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\assets\\images",
-    "\\assets\\images\\about",
     "\\components",
     "\\components\\about",
-    "\\components\\contact"
+    "\\components\\card",
+    "\\components\\highlights"
   ],
   "SelectedNode": "\\components\\about\\about.css",
   "PreviewInSolutionExplorer": false
