@@ -35,12 +35,12 @@
             <a href="#services" onclick="showSection('services')">Services</a>
             <a href="#contact" onclick="showSection('contact')">Contact</a>
         </nav>
-    </header>    
+    </header>
 
     <div id="content"></div>
 
     <script>
-        function loadComponent(url, sectionId) {
+        function loadComponent(url, sectionId, callback) {
             console.log(`Loading component from ${url}`); // Debugging line
             fetch(url)
                 .then(response => {
@@ -60,10 +60,14 @@
                     // Append the content to the #content div
                     document.getElementById('content').appendChild(tempDiv.querySelector('section'));
                     document.getElementById('content').appendChild(hr);
+
+                    // Call the callback function to load the next component
+                    if (callback) {
+                        callback();
+                    }
                 })
                 .catch(error => console.error('Error loading component:', error));
         }
-
 
         function showSection(sectionId) {
             document.querySelectorAll('section').forEach(section => {
@@ -73,10 +77,13 @@
         }
 
         document.addEventListener("DOMContentLoaded", function () {
-            loadComponent('components/about/about.html', 'content');
-            loadComponent('components/highlights/highlights.html', 'content');
-            loadComponent('components/services/services.html', 'content');
-            loadComponent('components/contact/contact.html', 'content');
+            loadComponent('components/about/about.html', 'content', function () {
+                loadComponent('components/highlights/highlights.html', 'content', function () {
+                    loadComponent('components/services/services.html', 'content', function () {
+                        loadComponent('components/contact/contact.html', 'content');
+                    });
+                });
+            });
         });
     </script>
 
