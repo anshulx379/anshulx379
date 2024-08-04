@@ -1,50 +1,63 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #FFFFF4; /* Beige background */
+    color: #333; /* Dark Slate Gray text */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #f8f9fa;
+    background-color: #7FB8A4; /* Off-Green header */
+    color: #FFFFF4;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative; /* Make the header relative to position the h1 inside it */
 }
 
-header img {
-    max-width: 100px;
-}
+    header img {
+        width: 7vh;
+        height: 7vh;
+    }
 
-header h1 {
-    margin: 0;
-    font-size: 24px;
-    text-align: center;
-    flex-grow: 1;
+    header h1 {
+        margin: 0;
+        font-size: 24px;
+        text-align: center;
+        flex-grow: 1;
+        color: #4A4A4A; /* Dark Gray title */
+        position: absolute;
+        right: 45%; /* Position the h1 25% from the right */
+    }
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0; /* Adjust as needed */
 }
 
 nav {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
-nav a {
-    margin: 0 15px;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #000;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    transition: background-color 0.3s, border 0.3s;
-}
+    nav a {        
+        padding: 10px 10px;
+        text-decoration: none;
+        color: #2F4F4F; /* Dark Slate Gray links */
+        border: 1px solid transparent;
+        border-radius: 5px;
+        transition: background-color 0.3s, border 0.3s;
+    }
 
-nav a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 1px solid #ccc;
-}
+        nav a:hover {
+            background-color: #E6F2E6; /* Light Green hover */
+            border: 1px solid #557A55; /* Dark Green border */
+        }
 
 section {
     padding: 40px 20px;
     text-align: center;
+    background-color: #FFF4B3; /* Soft Yellow section background */
 }

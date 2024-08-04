@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+    <title>Nuflexi Consultants</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/favicon_io/favicon.ico">
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=446292745"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'YOUR_TRACKING_ID');
@@ -16,7 +20,59 @@
     <!-- End Google Analytics -->
 </head>
 <body>
-    <h1>Welcome to My GitHub Pages Site</h1>
-    <p>This is a simple site deployed on GitHub Pages.</p>
+    <header>
+        <img src="logo.png" alt="Logo">
+        <h1>Nuflexi Consultants</h1>
+        <nav>
+            <a href="#about" onclick="showSection('about')">About</a>
+            <a href="#highlights" onclick="showSection('highlights')">Highlights</a>
+            <a href="#services" onclick="showSection('services')">Services</a>
+            <a href="#contact" onclick="showSection('contact')">Contact</a>
+        </nav>
+    </header>    
+
+    <div id="content"></div>
+
+    <script>
+        function loadComponent(url, sectionId) {
+            console.log(`Loading component from ${url}`); // Debugging line
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Network response was not ok: ${response.statusText}`);
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    console.log(`Component loaded successfully from ${url}`); // Debugging line
+                    const tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = data;
+
+                    // Create a horizontal rule element
+                    const hr = document.createElement('hr');
+
+                    // Append the content to the #content div
+                    document.getElementById('content').appendChild(tempDiv.querySelector('section'));
+                    document.getElementById('content').appendChild(hr);
+                })
+                .catch(error => console.error('Error loading component:', error));
+        }
+
+
+        function showSection(sectionId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            loadComponent('components/about/about.html', 'content');
+            loadComponent('components/highlights/highlights.html', 'content');
+            loadComponent('components/services/services.html', 'content');
+            loadComponent('components/contact/contact.html', 'content');
+        });
+    </script>
+
 </body>
 </html>
