@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
     "\\assets\\images",
-    "\\assets\\images\\favicon_io",
+    "\\assets\\images\\about",
     "\\components",
-    "\\components\\about"
+    "\\components\\about",
+    "\\components\\contact"
   ],
-  "SelectedNode": "\\components\\about\\about.html",
+  "SelectedNode": "\\components\\about\\about.css",
   "PreviewInSolutionExplorer": false
 }
