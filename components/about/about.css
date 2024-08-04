@@ -1,16 +1,25 @@
-.about-container {
-    background-color: #FFFFFF;
-    padding: 60px 20px;
-    text-align: center;
-    background-image: url('../../assets/images/about/about-background.jpg'); /* Add your image path here */
-    background-size: cover; /* Ensure the image covers the entire section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+#about {
+    padding: 0; /* Remove padding from the section */
+    background-image: url('../../assets/images/about/about-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #FFFFFF; /* Change text color to white for better contrast against the background image */
 }
 
+.about-container {    
+    padding: 60px 20px;     
+    margin-left:45%;    
+}
+
 .about-content {
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to improve text readability */
+    text-align: right;
+    color: #FFFFFF; /* Change text color to white for better contrast against the background image */
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: Add a semi-transparent background to improve text readability */
     padding: 20px;
     border-radius: 10px; /* Optional: Rounded corners for the content box */
     display: inline-block;
