@@ -1,1 +1,114 @@
+#contact {
+    margin: 1rem;
+    padding: 2rem;
+    height: auto;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure no overflow */
+}
 
+    #contact h2 {
+        font-size: 2em; /* Increase font size */
+        font-weight: bold; /* Make the font bold */
+        color: #004d40; /* Dark color for the title */
+        margin-bottom: 30px; /* Add space below the title */
+        text-transform: uppercase; /* Optional: Make the text uppercase */
+        letter-spacing: 2px; /* Add letter spacing */
+        border-bottom: 2px solid #7FB8A4; /* Optional: Add an accent color underline */
+        display: inline-block; /* To apply the underline only as wide as the text */
+        padding-bottom: 10px; /* Space between text and underline */
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    #contact p {
+        padding: 0px;
+        width: 70%;
+        margin: 0 auto 1.5rem; /* Center align the paragraph */
+        word-wrap: break-word; /* Break long words to fit within the container */
+        overflow-wrap: break-word; /* Ensure long words break and wrap */
+        word-break: break-word; /* Ensures long words break properly */
+    }
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, and flex-basis */
+    max-width: 50%; /* Ensure the container does not get too wide */
+    width: calc(100% - 10px); /* Ensure it fits within the container with padding */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+}    
+
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: #004d40;
+    }
+
+    .form-group input, .form-group textarea {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; /* Ensures padding is included in the total width */
+    }
+
+button[type="submit"] {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #195e53;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button[type="submit"]:hover {
+        background-color: #003329;
+    }
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+
+    #contact {
+        padding: 1rem;
+    }
+
+        #contact p {
+            width: 100%;
+        }
+
+    .contact-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+
+    .contact-info, .contact-form {
+        max-width: 100%;
+        min-width: 120px; /* Ensure full width */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}

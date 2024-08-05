@@ -4,30 +4,39 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-blend-mode: lighten;
-    display: flex;
-    justify-content: center;
     align-items: center;
     color: #FFFFFF; /* Change text color to white for better contrast against the background image */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; /* Aligns text to the bottom */
 }
 
-.about-container {    
-    padding: 60px 20px;     
-    margin-left:45%;    
+.about-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #195e53; /* Optional: Add a semi-transparent background to improve text readability */
+    border-radius: 10px; /* Optional: Rounded corners for the content box */
+    opacity: 0.9;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; /* Aligns text to the bottom */  
+    width:100%;    
 }
 
 .about-content {
     text-align: right;
     color: #FFFFFF; /* Change text color to white for better contrast against the background image */
-    background-color: rgba(0, 0, 0, 0.7); /* Optional: Add a semi-transparent background to improve text readability */
     padding: 20px;
-    border-radius: 10px; /* Optional: Rounded corners for the content box */
     display: inline-block;
+    margin-left: auto;
+    min-width: 250px;
+    max-width: 768px;
+    padding: 60px 20px 30px 20px;
 }
 
     .about-content h2 {
-        font-size: 2em;
-        margin-bottom: 40px;
+        font-size: 2em;        
         color: #FFFFFF; /* White color for the title */
     }
 

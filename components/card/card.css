@@ -6,8 +6,8 @@
     overflow: hidden;
     margin: 10px;
     flex: 1;
-    height: 60vh;
-    min-width: 20vw;
+    height: auto;
+    min-width: 250px;
     max-width: 30%; /* Ensure cards do not exceed 30% width each */
 }
 
@@ -28,3 +28,24 @@
         margin: 15px;
         color: #666;
     }
+
+@media (max-width: 768px){
+    .card {
+        max-width: 80%; /* Increase card width on small screens */
+        margin: 10px 0; /* Adjust margin for vertical stacking */
+    }
+}
+
+@media (min-width: 769px) {
+    .card {
+        max-width: 60%; /* Increase card width on small screens */
+        margin: 10px 0; /* Adjust margin for vertical stacking */
+    }
+}
+
+@media (min-width: 900px) {
+    .card {
+        max-width: 30%; /* Increase card width on small screens */
+        margin: 10px 0; /* Adjust margin for vertical stacking */
+    }
+}
