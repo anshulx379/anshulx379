@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\jsste\\Documents\\anshulx379\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jsste\\Documents\\anshulx379\\components\\highlights\\highlights.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\highlights\\highlights.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jsste\\Documents\\anshulx379\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jsste\\Documents\\anshulx379\\components\\contact\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\contact\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jsste\\Documents\\anshulx379\\components\\contact\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\contact\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jsste\\Documents\\anshulx379\\components\\services\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\services\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jsste\\Documents\\anshulx379\\components\\services\\services.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\services\\services.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jsste\\Documents\\anshulx379\\components\\about\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\about\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jsste\\Documents\\anshulx379\\components\\about\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\about\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jsste\\Documents\\anshulx379\\components\\highlights\\highlights.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\highlights\\highlights.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jsste\\Documents\\anshulx379\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -27,40 +51,117 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "highlights.html",
-              "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\highlights\\highlights.html",
-              "RelativeDocumentMoniker": "components\\highlights\\highlights.html",
-              "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\highlights\\highlights.html",
-              "RelativeToolTip": "components\\highlights\\highlights.html",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-04T18:07:20.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\style.css",
-              "RelativeDocumentMoniker": "style.css",
-              "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\style.css",
-              "RelativeToolTip": "style.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-04T17:58:44.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwFcAAAANAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-04T17:57:49.659Z",
+              "WhenOpened": "2024-08-05T06:26:24.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "services.css",
+              "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\services\\services.css",
+              "RelativeDocumentMoniker": "components\\services\\services.css",
+              "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\services\\services.css",
+              "RelativeToolTip": "components\\services\\services.css",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwCkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-05T04:36:27.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "services.html",
+              "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\services\\services.html",
+              "RelativeDocumentMoniker": "components\\services\\services.html",
+              "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\services\\services.html",
+              "RelativeToolTip": "components\\services\\services.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-05T04:36:24.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "about.html",
+              "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\about\\about.html",
+              "RelativeDocumentMoniker": "components\\about\\about.html",
+              "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\about\\about.html",
+              "RelativeToolTip": "components\\about\\about.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-05T04:29:02.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "contact.html",
+              "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\contact\\contact.html",
+              "RelativeDocumentMoniker": "components\\contact\\contact.html",
+              "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\contact\\contact.html",
+              "RelativeToolTip": "components\\contact\\contact.html",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAoAAACaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-05T04:28:17.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "contact.css",
+              "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\contact\\contact.css",
+              "RelativeDocumentMoniker": "components\\contact\\contact.css",
+              "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\contact\\contact.css",
+              "RelativeToolTip": "components\\contact\\contact.css",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAAC0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-05T04:25:19.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "about.css",
+              "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\about\\about.css",
+              "RelativeDocumentMoniker": "components\\about\\about.css",
+              "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\about\\about.css",
+              "RelativeToolTip": "components\\about\\about.css",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwCIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T19:20:21.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\style.css",
+              "RelativeDocumentMoniker": "style.css",
+              "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\style.css",
+              "RelativeToolTip": "style.css",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T19:19:25.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "highlights.css",
+              "DocumentMoniker": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\highlights\\highlights.css",
+              "RelativeDocumentMoniker": "components\\highlights\\highlights.css",
+              "ToolTip": "C:\\Users\\jsste\\Documents\\anshulx379\\components\\highlights\\highlights.css",
+              "RelativeToolTip": "components\\highlights\\highlights.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T19:18:52.364Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,62 @@
+#services {
+    margin: 1rem 1rem;
+    height: auto;
+    background-color: #aadbd9; /* Lighter shade of muted teal */
+    color: #004d40; /* Muted teal text */
+    text-align: center;
+}
+
+    #services h2 {
+        font-size: 2em; /* Increase font size */
+        font-weight: bold; /* Make the font bold */
+        margin-bottom: 30px; /* Add space below the title */
+        text-transform: uppercase; /* Optional: Make the text uppercase */
+        letter-spacing: 2px; /* Add letter spacing */
+        border-bottom: 2px solid #7FB8A4; /* Optional: Add an accent color underline */
+        display: inline-block; /* To apply the underline only as wide as the text */
+        padding-bottom: 10px; /* Space between text and underline */
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    #services p {
+        padding: 0px;
+        width: 70%;
+        margin: 0 auto 1.5rem; /* Center align the paragraph */
+    }
+
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Limit to 2 columns per row */
+    gap: 1rem;
+    justify-content: center; /* Center the grid items */
+    justify-items: center; /* Center items within each column */
+}
+
+.item {
+    background-color: #195e53; /* Muted teal background */
+    color: #ffffff; /* White text */
+    padding: 1rem;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;    
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+    .item-grid {
+        grid-template-columns: 1fr; /* Stack items vertically */
+        width: 100%
+    }
+
+    .item {
+        width: 100%; /* Allow full width on mobile */
+        padding: 5px;
+    }
+
+    #services p {
+        padding: 0px;
+        width: 90%;
+        margin: 0 auto 1rem; /* Center align the paragraph */
+    }
+}

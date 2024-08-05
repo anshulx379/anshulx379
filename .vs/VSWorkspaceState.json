@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\components",
-    "\\components\\highlights"
+    "\\components\\about",
+    "\\components\\card",
+    "\\components\\contact",
+    "\\components\\highlights",
+    "\\components\\services"
   ],
-  "SelectedNode": "\\components\\highlights\\highlights.html",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
